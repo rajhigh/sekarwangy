@@ -12,7 +12,10 @@
 
 <nav>
     <div class="logo">SEKAR WANGY</div>
-    <ul>
+    <div class="hamburger" id="hamburger" onclick="this.classList.toggle('open'); document.getElementById('navMenu').classList.toggle('open')">
+        <span></span><span></span><span></span>
+    </div>
+    <ul id="navMenu">
         <li><a href="../index.html">Home</a></li>
         <li><a href="../about.html">About</a></li>
         <li><a href="../projects.html">Projects</a></li>
